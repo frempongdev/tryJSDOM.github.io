@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM test page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body class="custom-font">
+    <div class="container-fluid mb-4">
+        <div class="row row header bg-primary p-2 p-md-2 p-lg-2">
+            <div class="col-8 header px-lg-5 px-md-4">
+                <h1 class="text-light">Item Lister</h1>
+            </div>
+            <div class="col-4 align-self-center">        
+                <input class="form-control" type="text" placeholder="Search...">
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="div container mb-4">
+            <h2 class="italic-font mb-3">Enter Item and Submit</h2>
+            <div class="row form">
+                <div class="">
+                    <form class="row" action="">
+                        <div class="col-7">
+                            <input class="form-control" type="text" placeholder="type here ...">
+                        </div>
+                        <div class="col-5 align-self-center">
+                            <input class="btn bg-dark text-light ali" type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-body item-box">
+            <h4 class="px-5">Items List</h4>
+            <div class="container">
+                <div class="">
+                   <ul class="list-group">
+                    <li class="list-group-item">Item 1 <button class="btn btn-danger btn-sm icon-pusher delete">X</button></li>
+                    <li class="list-group-item">Item 2 <button class="btn btn-danger btn-sm icon-pusher delete">X</button></li>
+                    <li class="list-group-item">Item 3 <button class="btn btn-danger btn-sm icon-pusher delete">X</button></li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>

@@ -1,0 +1,17 @@
+.custom-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.italic-font {
+    font-style: italic;
+    font-weight: 300;
+}
+
+input:placeholder-shown {
+    font-style: italic;
+    justify-items:end;
+}
+
+.icon-pusher {
+    margin-left: 75%;
+}
